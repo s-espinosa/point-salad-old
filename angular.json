@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "ps",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
@@ -102,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "215d9ad9-f4dc-40f3-828b-ea638221a1df"
   }
 }
