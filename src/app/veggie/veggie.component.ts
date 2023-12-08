@@ -10,4 +10,8 @@ import { Veggie } from '../veggie';
 })
 export class VeggieComponent {
   @Input() veggie!: Veggie;
+
+  selectVeggie(): void {
+    console.log(this.veggie.name)
+  }
 }
