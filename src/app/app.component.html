@@ -1,6 +1,13 @@
 <h1>Point Salad</h1>
 
+<div>
+    <h2>Market</h2>
+    <p *ngFor="let veggie of veggies" (click)="selectVeggie(veggie)">{{ veggie.name }}</p>
+</div>
 
-<ps-veggies></ps-veggies>
+<div>
+    <h2>Collection</h2>
+    <p *ngFor="let veggieName of veggieTypes">{{ veggieName }}: {{ countCollected(veggieName) }}</p>
+</div>
 
 <router-outlet></router-outlet>
