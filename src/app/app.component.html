@@ -1,12 +1,12 @@
-<h1>Point Salad</h1>
+<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">Point Salad</h1>
 
 <div>
-    <h2>Market</h2>
+    <h2 class="text-4xl font-extrabold">Market</h2>
     <p *ngFor="let veggie of veggies" (click)="selectVeggie(veggie)">{{ veggie.name }}</p>
 </div>
 
 <div>
-    <h2>Collection</h2>
+    <h2 class="text-4xl font-extrabold">Collection</h2>
     <p *ngFor="let veggieName of veggieTypes">{{ veggieName }}: {{ countCollected(veggieName) }}</p>
 </div>
 
