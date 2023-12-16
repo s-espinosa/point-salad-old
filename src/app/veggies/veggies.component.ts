@@ -13,19 +13,28 @@ import { VeggieComponent } from '../veggie/veggie.component';
 export class VeggiesComponent {
   veggies: Veggie[] = [
     {
+      color: 'green-600',
       name: 'lettuce'
-    }, 
+    },
     {
+      color: 'pink-700',
       name: 'onion'
     },
     {
+      color: 'fuchsia-800',
       name: 'cabbage'
     },
     {
+      color: 'yellow-400',
       name: 'yellow pepper'
     },
     {
+      color: 'orange-500',
       name: 'carrot'
+    },
+    {
+      color: 'red-700',
+      name: 'tomato'
     },
   ]
 }

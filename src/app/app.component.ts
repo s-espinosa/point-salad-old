@@ -16,19 +16,28 @@ export class AppComponent {
   title = 'point-salad';
   veggies: Veggie[] = [
     {
+      color: 'bg-green-600',
       name: 'lettuce'
     },
     {
+      color: 'bg-pink-700',
       name: 'onion'
     },
     {
+      color: 'bg-fuchsia-800',
       name: 'cabbage'
     },
     {
+      color: 'bg-yellow-400',
       name: 'yellow pepper'
     },
     {
+      color: 'bg-orange-500',
       name: 'carrot'
+    },
+    {
+      color: 'bg-red-700',
+      name: 'tomato'
     },
   ]
   collectedVeggies: Veggie[] = [];
@@ -38,6 +47,7 @@ export class AppComponent {
       'cabbage',
       'yellow pepper',
       'carrot',
+      'tomato',
   ]
 
   selectVeggie(veggie: Veggie) {
