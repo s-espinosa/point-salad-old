@@ -14,27 +14,33 @@ export class VeggiesComponent {
   veggies: Veggie[] = [
     {
       color: 'green-600',
-      name: 'lettuce'
+      name: 'lettuce',
+      png: '/assets/lettuce.png'
     },
     {
       color: 'pink-700',
-      name: 'onion'
+      name: 'onion',
+      png: '/assets/onion.png'
     },
     {
       color: 'fuchsia-800',
-      name: 'cabbage'
+      name: 'cabbage',
+      png: '/assets/cabbage.png'
     },
     {
       color: 'yellow-400',
-      name: 'yellow pepper'
+      name: 'yellow pepper',
+      png: '/assets/pepper.png'
     },
     {
       color: 'orange-500',
-      name: 'carrot'
+      name: 'carrot',
+      png: '/assets/carrot.png'
     },
     {
       color: 'red-700',
-      name: 'tomato'
+      name: 'tomato',
+      png: '/assets/tomato.png'
     },
   ]
 }

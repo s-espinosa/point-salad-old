@@ -17,27 +17,33 @@ export class AppComponent {
   veggies: Veggie[] = [
     {
       color: 'bg-green-600',
-      name: 'lettuce'
+      name: 'lettuce',
+      png: '/assets/lettuce.png'
     },
     {
       color: 'bg-pink-700',
-      name: 'onion'
+      name: 'onion',
+      png: '/assets/onion.png'
     },
     {
       color: 'bg-fuchsia-800',
-      name: 'cabbage'
+      name: 'cabbage',
+      png: '/assets/cabbage.png'
     },
     {
       color: 'bg-yellow-400',
-      name: 'yellow pepper'
+      name: 'yellow pepper',
+      png: '/assets/pepper.png'
     },
     {
       color: 'bg-orange-500',
-      name: 'carrot'
+      name: 'carrot',
+      png: '/assets/carrot.png'
     },
     {
       color: 'bg-red-700',
-      name: 'tomato'
+      name: 'tomato',
+      png: '/assets/tomato.png'
     },
   ]
   collectedVeggies: Veggie[] = [];
