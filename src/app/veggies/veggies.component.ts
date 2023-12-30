@@ -29,7 +29,7 @@ export class VeggiesComponent {
     },
     {
       color: 'yellow-400',
-      name: 'yellow pepper',
+      name: 'pepper',
       png: '/assets/pepper.png'
     },
     {

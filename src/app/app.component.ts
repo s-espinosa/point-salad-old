@@ -32,7 +32,7 @@ export class AppComponent {
     },
     {
       color: 'bg-yellow-400',
-      name: 'yellow pepper',
+      name: 'pepper',
       png: '/assets/pepper.png'
     },
     {
